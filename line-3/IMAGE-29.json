@@ -1,0 +1,36 @@
+{
+  "wall": "artifacts/line-3/wall-v9.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "sha256": "41a0945e332c8cd24e0a509ee3297467622b03ecc55eceb4cca6f11714e4fbb7",
+  "ancestor_sha256": "d7243377db31c4e0f3e2f307c71e627a519eae4d235392f3917bb4bd52352ac9",
+  "generated_motif_sha256": "12a2d9a7badab0870272fdf1b0228679845abd9eb3a94487825764572633fbc4",
+  "changed_pixels": 1478,
+  "changed_pixels_outside_rectangle": 0,
+  "new_mark_rectangle": [
+    860,
+    590,
+    170,
+    85
+  ],
+  "thumbnail": {
+    "path": "dist/line-3/29.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75951
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Reviewed final PNG and JPEG; ancestor marks and all pixels outside patch preserved. No new hands, writing, logos or frames observed. See MARK-29.md for inherited hand visibility and aesthetic limits.",
+  "limitations": [
+    "Small stones and faint cord at thumbnail scale.",
+    "Pigment wear pattern is somewhat regular.",
+    "Inherited curled hand does not expose every digit; no hand was altered."
+  ]
+}

@@ -179,3 +179,21 @@
   requested 512-square JPEG and 28.json is the single new numbered record.
   Finished PNG and JPEG were visually inspected. No auxiliary image was saved
   in the workspace. MARK-28.md and IMAGE-28.json record results and limitations.
+
+# Used by Pepe 29 — The Joined Stones
+
+- Read GOAL.md, the gathering report and ancestor search/receipt/reading-list
+  documentation and source as data. No reported line-3 break required repair.
+- Added tools/phrase-finder/ without changing the goal, older tools or records.
+  Reused Evidence Search's bounded UTF-8 index, validator, safe path handling,
+  SHA-256 and line conventions. Standard library only; no dependency installed.
+- Demo verified `zto.md:3-3` from the inherited historical ZTO-first sources.
+  Eleven behavioral tests passed; no network, wallet, key, environment, payment,
+  transaction, post or deployment was involved in the tool or its checks.
+- Used imagegen skill and the installed artifacts image generator for the new
+  two-stone-and-cord motif. Reused finish_wall28.py's PNG codec and the already
+  vendored JPEG encoder solely for wall export. Flattened generated silhouettes
+  to earth pigment and preserved every pixel outside the added mark's rectangle.
+- Inspected final PNG and JPEG. Added no hands or handprints. Output and review:
+  artifacts/line-3/wall-v9.png, wall.png continuation, dist/line-3/29.json and
+  29.jpg, IMAGE-29.json and MARK-29.md. Output images remain untracked.

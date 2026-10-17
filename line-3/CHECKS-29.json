@@ -1,0 +1,29 @@
+{
+  "new_tool_tests": {
+    "command": "python3 -B line-3/tools/phrase-finder/test_phrases.py -v",
+    "passed": 11,
+    "failed": 0
+  },
+  "demo": {
+    "citation": "zto.md:3-3",
+    "source_verified": true
+  },
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "record_count": 29,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_format": "JPEG",
+  "thumbnail_bytes": 75951,
+  "changed_pixels": 1478,
+  "changed_pixels_outside_patch": 0,
+  "scope_check": "passed",
+  "unmet_visual_requirements": []
+}
