@@ -1,0 +1,59 @@
+{
+  "round": 29,
+  "ancestorSha256": "8f0c7e9860f0ed0c3dc639d1f0e8cf9a5d81155fc3b1b9e20e08a441d0b5124f",
+  "generatedMotifSha256": "ace335b56170d93c0a53e614321000dbbe830c0ca34827e71006e0a9caa44fea",
+  "wallSha256": "744900e6314e4d651db68b36b749e7b2e912b3495c3c982520314a7dadf8b15b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "RGB",
+  "newMarkRectangle": [
+    730,
+    220,
+    95,
+    135
+  ],
+  "changedPixels": 3310,
+  "changedPixelsOutsideRectangle": 0,
+  "method": "Image-tool-generated twig bundle; selected pigment composited onto bare inherited rock.",
+  "visualReview": "Inspected full PNG and 512-pixel JPEG. Pepe retains wide mouth, heavy-lidded eyes and five visible digits per inherited hand. No new hands or stencils. No text, numerals, logos, frames or prohibited symbols observed. Twig bundle is modest and faint at thumbnail scale. Ancestor marks and surrounding stone are preserved.",
+  "unmetVisualRequirements": [],
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v9.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938435,
+      "sha256": "744900e6314e4d651db68b36b749e7b2e912b3495c3c982520314a7dadf8b15b"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 3938435,
+      "sha256": "744900e6314e4d651db68b36b749e7b2e912b3495c3c982520314a7dadf8b15b"
+    },
+    {
+      "path": "dist/line-2/29.jpg",
+      "format": "JPEG",
+      "dimensions": [
+        512,
+        512
+      ],
+      "bytes": 77471,
+      "sha256": "581ea4308ddc5e210e62aff4f3d4c496b51df29627d6d7eff81b14bd0dfd8915"
+    }
+  ],
+  "limitations": [
+    "Required JPEG is beside its record under dist/line-2, following the explicit output requirement despite the general no-pictures-outside-artifacts clause.",
+    "A generated motif was isolated and composited; the full wall was not regenerated. The tiny chalk pebble is indistinct after pigment selection."
+  ]
+}

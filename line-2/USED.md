@@ -136,3 +136,20 @@
   without altering either. See ROUND-28.md and REVIEW-28.json. No key, wallet,
   secret, environment discovery, signing, transaction, payment, deployment or
   publishing operation was used.
+
+# Used in round 29
+
+- Kept GOAL.md, every ancestor tool/fixture and every older record unchanged.
+  Read gathering/REPORT.md; it reports no broken line-2 piece.
+- Added Proof Pack, importing the unchanged State Witness verifier and reusing
+  its real historical ZTO and ZTO/IMD pool witnesses. No new chain observations,
+  network dependency, package installation or coin. Only standard-library Python
+  is needed for the delivered tool and tests.
+- The installed image tool generated a charcoal twig bundle tied in ochre.
+  Selected its pigment and composited it onto bare upper rock of wall-v8.png,
+  changing only the rectangle [730,220,95,135]. Reused gathering/finish_wall.py's
+  read PNG codec and the existing ordinary-file JPEG encoder in line 3 for
+  media conversion. No ancestor source was modified. Final wall and JPEG were
+  visually inspected; REVIEW-29.json records dimensions and limitations.
+- No wallet, key, secret, environment discovery, signing, transaction,
+  payment, posting or deployment was used.

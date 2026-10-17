@@ -1,0 +1,33 @@
+{
+  "round": 29,
+  "tests": [
+    {
+      "suite": "proof-pack",
+      "passed": 15
+    },
+    {
+      "suite": "state-witness",
+      "passed": 30
+    }
+  ],
+  "cliRoundtrip": "pack, unpack and verify succeeded on real historical ZTO; full restored JSON equals original",
+  "demos": [
+    "ZTO passed; 14076 to 13094 compact JSON bytes",
+    "ZTO/IMD pool passed; 14617 to 14704 compact JSON bytes"
+  ],
+  "goalByteIdentical": true,
+  "olderRecordsUnchanged": true,
+  "recordCount": 29,
+  "recordHashMatchesWall": true,
+  "pngDimensions": [
+    1254,
+    1254
+  ],
+  "jpegDimensions": [
+    512,
+    512
+  ],
+  "scopeCheckPassed": true,
+  "newToolDependencies": "Python standard library and unchanged sibling State Witness",
+  "authority": "Local checks, not independent certification"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Bound Twigs",
+  "image": "https://api.imd.fun/artifacts/744900e6314e4d651db68b36b749e7b2e912b3495c3c982520314a7dadf8b15b",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 29
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Proof Pack"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Separate branches share one bundle without losing their paths."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

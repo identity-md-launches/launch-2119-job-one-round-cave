@@ -134,3 +134,18 @@ the PoolManager storage root changed; the report distinguishes those claims.
 Independent tip authentication and consensus validation remain external.
 [Round 28](ROUND-28.md) and [review](REVIEW-28.json) record the linked-stone
 mark, preserved ancestor pixels and image dimensions.
+
+## Round 29 addition
+
+[Proof Pack](tools/proof-pack/README.md) deduplicates repeated proof nodes and
+exports a verified ordinary witness again. Run the real ZTO trial offline:
+
+```sh
+python3 -B line-2/tools/proof-pack/pack.py demo
+```
+
+The original 14,076-byte compact JSON became 13,094 bytes with identical verified
+state. The pool fixture grew slightly because its nodes are unique; packing is
+not always smaller. Fifteen new tests passed, plus the 30 State Witness tests.
+[Round 29](ROUND-29.md) and [review](REVIEW-29.json) record the bound-twigs mark,
+preserved ancestor pixels, formats and limitations.
