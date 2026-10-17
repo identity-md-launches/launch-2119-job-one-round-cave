@@ -1,0 +1,7 @@
+{
+  "source": "line-4/tools/release-map/release_map.py",
+  "source_sha256": "67d7f7022b7075d3c8799ecc0992039b67e61d4202e175e6057e3bae882500da",
+  "copy": "shared/merge-dependencies/release_map.py",
+  "copy_sha256": "df9ddf8ff6dbdc628098dcac7d4f0ff3f82db1c8104c1b73f0dfba0052dd0d07",
+  "adaptation": "Relocated CHECKER to sibling exhaustive.py; removed line-specific CLI. release_map algorithm unchanged."
+}

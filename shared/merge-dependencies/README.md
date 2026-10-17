@@ -239,3 +239,52 @@ budget boundaries, skipped audits, immutable inputs and a portable folder copy:
 ```sh
 python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_audited_plan.py' -v
 ```
+
+## Release choices after a merge (gathering 29)
+
+See every release that can participate in a compatible selection of the actual
+merged catalog, with full assignment witnesses. This combines line 1's review
+packet with line 4's Release Map. Run offline from the workspace root:
+
+```sh
+python3 -B shared/merge-dependencies/merge_choices.py demo
+```
+
+Tried here: all **24 candidates** exhausted, **eight compatible selections**,
+**eight viable releases**, and four stored witnesses covering those releases.
+Five other releases are excluded under this merged catalog's constraints.
+The bundled historical Requests metadata is a compatibility example, not a
+current package recommendation. No files, roots or pins are changed.
+
+For your own workspace-local inputs:
+
+```sh
+python3 -B shared/merge-dependencies/merge_choices.py check BASE.json OURS.json THEIRS.json --max-assignments 10000
+```
+
+Use the same finite numeric catalog schema as the original merger. JSON output
+includes the exact merge packet and a `choices` map. Every `viable` release
+references a full compatible selection by zero-based witness index. A completed
+map with no selections is incompatible. A partial map preserves positive
+witnesses but labels every unproved release `unknown`, never `excluded`.
+Text conflicts skip mapping; malformed or duplicate-key JSON is rejected.
+
+Exit codes: **0** mapped, **1** text conflict or incompatible, **2** invalid,
+**3** inconclusive. `--max-assignments` accepts 1–1,000,000 complete tuples;
+completion exactly at the limit succeeds. No solver search or root reduction
+is called by this workflow. It shares the inherited numeric parser and edge
+checker, so their defects remain possible. Enumeration is exponential and the
+budget does not cap wall time, parsing, memory or output size. Witnesses do not
+establish platform compatibility, artifact authenticity, security or installability.
+
+`release_map.py` is an ordinary copy of line 4's algorithm, with its checker
+lookup relocated and line-specific CLI removed. Source and copy hashes are in
+`RELEASE-MAP-PROVENANCE.json`. Keep this entire shared folder together; Python
+3.10+ standard library suffices without line folders, installation or network.
+Seven new tests passed, including real merged-catalog witnesses, exact budgets,
+partial-map semantics, incompatible merges of separately compatible branches,
+conflict short-circuiting, malformed inputs and portable read-only execution:
+
+```sh
+python3 -B -m unittest discover -s shared/merge-dependencies -p 'test_merge_choices.py' -v
+```

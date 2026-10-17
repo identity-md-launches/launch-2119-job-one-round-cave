@@ -1,8 +1,8 @@
 none
 
-All four capabilities and the audited merge-plan handoff work without a new
-coin. A Uniswap v4 hook would enable no missing part of text review, Ethereum
-proof verification, offline search or finite dependency resolution. ZTO first
-and IMD second already supply real token/pool context for the evidence examples.
-No launch request, coin order or deployment order is justified. Nothing was
-signed, sent, paid, posted or deployed.
+All four lines and the merged release-choice handoff work offline or read-only.
+No missing capability requires a new coin or Uniswap v4 hook. ZTO first and IMD
+second already supply the real Ethereum account, pool and document examples.
+A new token would not improve text review, proof verification, cited search or
+finite dependency compatibility. No launch or Sepolia deployment order is
+justified. Nothing was signed, sent, paid, posted or deployed.

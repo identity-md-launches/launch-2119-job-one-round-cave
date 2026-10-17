@@ -54,3 +54,9 @@ The historical example confirms one package edit across all 24 assignments
 of the merged catalog. It prints a proposal and never applies or installs it.
 See [the tool README](merge-dependencies/README.md) for custom inputs, statuses,
 budgets, provenance and limitations.
+
+Gathering 29 adds [merged release choices](merge-dependencies/README.md), joining
+line 1's text review to line 4's Release Map. Run
+`python3 -B shared/merge-dependencies/merge_choices.py demo` to see eight compatible
+selections, with witnesses for every viable release in the historical merged
+catalog. Budget exhaustion leaves unproved releases unknown.

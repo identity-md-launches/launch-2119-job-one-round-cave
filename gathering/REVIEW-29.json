@@ -1,0 +1,39 @@
+{
+  "number": 29,
+  "line_files_and_records_unchanged": true,
+  "line_tests_passed": 453,
+  "line_demos_passed": 36,
+  "shared_tests_passed": 69,
+  "gallery_records": 142,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v9.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "88fc9b1934e5b995fe4feddc9d90df49e1400dd27a4e62196031dd72f9d9e84a"
+  },
+  "preview": {
+    "path": "dist/gathering/29.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 83852
+  },
+  "changed_pixels": 10415,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Local inspection of finished wall and JPEG preview.",
+    "pepe": "Wide mouth and heavy-lidded eyes preserved.",
+    "hands": "No new hands or handprints; no new digits.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "Seed cluster is modest in the thumbnail; tool varied the prompt seed count."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}

@@ -1,0 +1,145 @@
+{
+  "choices": {
+    "candidate_assignments": 24,
+    "catalog_sha256": "0b240e558e98f7b5731620f596f8b6a2e71f9bac7ce72b325dd8d88ae4a96196",
+    "checked_assignments": 24,
+    "compatible_selections_found": 8,
+    "max_assignments": 10000,
+    "method": "finite-release-map-v1",
+    "missing_possible_packages": [],
+    "releases": {
+      "certifi": {
+        "2025.10.5": {
+          "status": "viable",
+          "witness": 3
+        },
+        "2025.8.3": {
+          "status": "viable",
+          "witness": 0
+        }
+      },
+      "chardet": {
+        "4.0.0": {
+          "status": "excluded"
+        }
+      },
+      "charset-normalizer": {
+        "3.4.3": {
+          "status": "viable",
+          "witness": 0
+        },
+        "3.4.4": {
+          "status": "viable",
+          "witness": 2
+        }
+      },
+      "idna": {
+        "2.10": {
+          "status": "excluded"
+        },
+        "3.10": {
+          "status": "viable",
+          "witness": 0
+        },
+        "3.11": {
+          "status": "viable",
+          "witness": 1
+        }
+      },
+      "requests": {
+        "2.25.1": {
+          "status": "excluded"
+        },
+        "2.31.0": {
+          "status": "excluded"
+        },
+        "2.32.5": {
+          "status": "viable",
+          "witness": 0
+        }
+      },
+      "urllib3": {
+        "1.26.20": {
+          "status": "viable",
+          "witness": 0
+        },
+        "2.5.0": {
+          "status": "excluded"
+        }
+      }
+    },
+    "status": "complete",
+    "witnesses": [
+      {
+        "certifi": "2025.8.3",
+        "charset-normalizer": "3.4.3",
+        "idna": "3.10",
+        "requests": "2.32.5",
+        "urllib3": "1.26.20"
+      },
+      {
+        "certifi": "2025.8.3",
+        "charset-normalizer": "3.4.3",
+        "idna": "3.11",
+        "requests": "2.32.5",
+        "urllib3": "1.26.20"
+      },
+      {
+        "certifi": "2025.8.3",
+        "charset-normalizer": "3.4.4",
+        "idna": "3.10",
+        "requests": "2.32.5",
+        "urllib3": "1.26.20"
+      },
+      {
+        "certifi": "2025.10.5",
+        "charset-normalizer": "3.4.3",
+        "idna": "3.10",
+        "requests": "2.32.5",
+        "urllib3": "1.26.20"
+      }
+    ]
+  },
+  "format": "merged-release-choices/v1",
+  "limits": [
+    "Read-only review; no root is removed or pin applied.",
+    "Witnesses establish compatibility only in the supplied finite catalog.",
+    "Unknown is not excluded when enumeration is incomplete.",
+    "No platform, artifact, security or installability claim.",
+    "Enumeration shares the inherited numeric parser and edge checker."
+  ],
+  "merge": {
+    "clean": true,
+    "conflicts": [],
+    "diffs": {
+      "ours": "--- BASE\n+++ OURS\n@@ -44,7 +44,7 @@\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n     \"idna\": \"*\",\n-    \"requests\": \"==2.31.0\",\n+    \"requests\": \"==2.32.5\",\n     \"urllib3\": \"<2\"\n   }\n }\n",
+      "theirs": "--- BASE\n+++ THEIRS\n@@ -43,7 +43,7 @@\n   },\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n-    \"idna\": \"*\",\n+    \"idna\": \">=3.10\",\n     \"requests\": \"==2.31.0\",\n     \"urllib3\": \"<2\"\n   }\n"
+    },
+    "inputs": {
+      "base": {
+        "bytes": 961,
+        "lines": 50,
+        "sha256": "1d5462c17d9d05372c591431f84d63c5237d2fedeb27187a1c1498bcf3a4edb7"
+      },
+      "ours": {
+        "bytes": 961,
+        "lines": 50,
+        "sha256": "1ed68e5120cd756fb4d8940eebbaab83b98068fb83f5c7a528fb657a1cf6d2df"
+      },
+      "theirs": {
+        "bytes": 966,
+        "lines": 50,
+        "sha256": "0089042156936454a8fbea88400b431d40e3e2ec334c20a058447fcc425f59d5"
+      }
+    },
+    "limits": [
+      "Line-based alignment can be ambiguous on repeated text.",
+      "Clean means no textual conflict, not semantic correctness.",
+      "Hashes identify bytes; they do not authenticate an author."
+    ],
+    "merged": "{\n  \"packages\": {\n    \"certifi\": {\n      \"2025.10.5\": {},\n      \"2025.8.3\": {}\n    },\n    \"chardet\": {\n      \"4.0.0\": {}\n    },\n    \"charset-normalizer\": {\n      \"3.4.3\": {},\n      \"3.4.4\": {}\n    },\n    \"idna\": {\n      \"2.10\": {},\n      \"3.10\": {},\n      \"3.11\": {}\n    },\n    \"requests\": {\n      \"2.25.1\": {\n        \"certifi\": \">=2017.4.17\",\n        \"chardet\": \">=3.0.2,<5\",\n        \"idna\": \">=2.5,<3\",\n        \"urllib3\": \">=1.21.1,<1.27\"\n      },\n      \"2.31.0\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      },\n      \"2.32.5\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      }\n    },\n    \"urllib3\": {\n      \"1.26.20\": {},\n      \"2.5.0\": {}\n    }\n  },\n  \"roots\": {\n    \"certifi\": \">=2017.4.17\",\n    \"idna\": \">=3.10\",\n    \"requests\": \"==2.32.5\",\n    \"urllib3\": \"<2\"\n  }\n}\n",
+    "merged_sha256": "e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5",
+    "schema": "merge-review/v1"
+  },
+  "status": "mapped"
+}
