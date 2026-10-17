@@ -1,0 +1,21 @@
+{
+  "number": 27,
+  "review_method": "Viewed the complete finished PNG and independently decoded 512-pixel JPEG with the image inspection tool; compared inherited and finished RGB pixels in a separate structural check.",
+  "visual_checks": {
+    "square_original_dimensions": true,
+    "original_rock_light_cracks_and_framing_preserved_outside_patch": true,
+    "inherited_pictographs_preserved": true,
+    "pepe_heavy_lidded_eyes_and_wide_mouth_preserved": true,
+    "inherited_hands_reviewed": "Two inherited hands each show four fingers and a thumb; their pixels are unchanged. No hands or handprints were added.",
+    "earth_pigments_only": true,
+    "no_observed_letters_numbers_captions_logos_or_borders": true,
+    "no_observed_forbidden_symbols_or_real_people": true
+  },
+  "new_mark": "Three red ochre choices follow charcoal paths toward a chalk stone on unused lower-left rock.",
+  "limitations": [
+    "The small charcoal paths and chalk stone are subtle in the 512-pixel preview.",
+    "Generated pigment extraction leaves speckled edges; the ancestor's rock remains visible through the mark.",
+    "Local visual review and byte checks do not constitute independent visual approval."
+  ],
+  "unmet_visual_requirements": []
+}

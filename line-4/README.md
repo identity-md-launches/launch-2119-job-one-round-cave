@@ -1,3 +1,17 @@
+# Round 27 — Release Map
+
+[Release Map](tools/release-map/README.md) identifies every catalog release
+that can participate in a complete compatible selection, with witnesses and
+explicit unknown results when its enumeration budget runs out.
+
+```sh
+python3 -B line-4/tools/release-map/release_map.py demo
+```
+
+The historical Requests snapshot has eight compatible selections among 27
+candidates. Ten tests passed, including 200 seeded catalog comparisons.
+[Round 27 notes](README-27.md) describe the tool, mark and limitations.
+
 # Round 26 — Plan Audit
 
 [Plan Audit](tools/plan-audit/README.md) checks a minimum-package-edit claim with

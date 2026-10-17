@@ -1,0 +1,33 @@
+{
+  "ancestor_sha256": "d46961f0b93376144377e81af127c3719b69c3e99d1fb10853cbf1ce74770fbc",
+  "wall_sha256": "b1537f491e56b62fd4f9f189661ff794e660ae8c0f1d7b75853fb356e1acc0fd",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "outputs": [
+    "artifacts/line-4/wall-v9.png",
+    "artifacts/line-4/wall.png"
+  ],
+  "new_mark_rectangle_xyxy": [
+    320,
+    815,
+    550,
+    1035
+  ],
+  "changed_pixels": 4628,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in image tool generated three ochre choices and converging charcoal paths. Extracted pigment was shrunk onto unused lower-left rock. Every pixel outside the patch is identical to the ancestor.",
+  "preview": {
+    "path": "dist/line-4/27.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 59301
+  },
+  "unmet_visual_requirements": []
+}

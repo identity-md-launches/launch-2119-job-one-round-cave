@@ -1,0 +1,60 @@
+{
+  "tests": {
+    "release_map_suite": {
+      "passed": 10,
+      "seeded_catalog_comparisons": 200
+    }
+  },
+  "cli_checks": [
+    {
+      "arguments": [
+        "demo"
+      ],
+      "exit": 0,
+      "status": "complete"
+    },
+    {
+      "arguments": [
+        "demo",
+        "--max-assignments",
+        "1"
+      ],
+      "exit": 3,
+      "status": "inconclusive"
+    },
+    {
+      "arguments": [
+        "demo",
+        "--max-assignments",
+        "0"
+      ],
+      "exit": 2,
+      "status": "invalid"
+    }
+  ],
+  "goal_byte_identical_to_HEAD": true,
+  "older_records_byte_identical_to_HEAD": 26,
+  "wall": {
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "changed_pixels": 4628,
+    "changed_pixels_outside_patch": 0
+  },
+  "preview": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "components": 3,
+    "bytes": 59301,
+    "visually_decoded": true
+  },
+  "record_hash_matches_wall": true,
+  "file_size_limits_passed": true,
+  "unmet_visual_requirements": [],
+  "authority": "Local observations only; no independent certification."
+}
