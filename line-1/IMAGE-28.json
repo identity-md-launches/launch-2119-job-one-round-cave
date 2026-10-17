@@ -1,0 +1,42 @@
+{
+  "ancestor_sha256": "54c423d23974db32fc52056cad2e1c5ee08926d7ef506f03d6bee0b99440275b",
+  "wall_sha256": "582ad290b64938f9af7770512d9a108d54f9b1e98c88be82188a53d16bdf88f7",
+  "wall_paths": [
+    "artifacts/line-1/wall-v9.png",
+    "artifacts/line-1/wall.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "thumbnail": {
+    "path": "dist/line-1/28.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 75799
+  },
+  "mark_rectangle": [
+    900,
+    330,
+    210,
+    100
+  ],
+  "changed_pixels": 6642,
+  "changed_pixels_outside_rectangle": 0,
+  "method": "Built-in imagegen motif; only generated pigment blended onto bare rock.",
+  "unmet_visual_requirements": [],
+  "location_conflict": "Used the specifically required dist/line-1/28.jpg despite the general no-pictures-outside-artifacts sentence.",
+  "visual_review": {
+    "reviewer": "This worker; inspection of finished PNG and JPEG",
+    "ancestor_marks": "All preserved; only a bare-rock rectangle was changed.",
+    "pepe": "Inherited broad mouth, heavy-lidded eyes and two five-digit hands preserved.",
+    "new_hands_or_handprints": 0,
+    "text_or_numbers_observed": false,
+    "limitation": "Small pigment motif at thumbnail scale."
+  }
+}

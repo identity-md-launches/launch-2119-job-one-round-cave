@@ -1,0 +1,89 @@
+{
+  "input": "Scratch copies of six existing Threeway source, documentation and example files, with two competing README additions.",
+  "packet_sha256": "31bd5c66974c1c5882d9464e61e5ea7f435c473b50c1147a2484a3ddfc2dba1e",
+  "receipt_sha256": "e742b3a7a4faea6e8820117994eabec763a8718729c87d582b7f78fb1b34484a",
+  "initial_status": "matches",
+  "initial_resolution_paths": [
+    "README.md"
+  ],
+  "after_removing_one_contribution": "stage-drift",
+  "changed_paths": [
+    "README.md"
+  ],
+  "lost_contribution_visible_in_diff": true,
+  "source_trees_unchanged": true,
+  "resolution_evidence": [
+    {
+      "path": "README.md",
+      "original_status": "text-conflict",
+      "reason": "Keep both the review requirement and the retained fingerprints.",
+      "selected": {
+        "kind": "file",
+        "sha256": "dd2f79aebd764ad6078e914d83b57ca4367904bf32a7de29e1cd70bfb724bff0",
+        "bytes": 3519
+      },
+      "against": {
+        "base": {
+          "before": {
+            "kind": "file",
+            "sha256": "99eac1d91323b3b51e57eebbc4338bb4715519bec5d51fa546b5e56acd87e003",
+            "bytes": 3422
+          },
+          "after": {
+            "kind": "file",
+            "sha256": "dd2f79aebd764ad6078e914d83b57ca4367904bf32a7de29e1cd70bfb724bff0",
+            "bytes": 3519
+          },
+          "identical": false,
+          "diff": "--- BASE\n+++ SELECTED\n@@ -33,3 +33,7 @@\n This is a line-based text merger, not a parser or proof of semantic correctness. Different edits on the same line conflict even if a human could combine them. An insertion at the start of another edit conservatively conflicts; one at its end is treated as following it. Repeated lines can make the common-base alignment ambiguous. Review important merges even when clean. Existing marker-like text is ordinary input, so JSON is the more reliable conflict indicator.\n \n Inputs must be valid UTF-8 with no NUL, at most 1 MiB and 4,000 lines each. Byte reads preserve CRLF and final-newline spelling in clean merges. Conflict display adds a newline when needed to separate marker lines; the JSON conflict fields retain exact input fragments. Markers use LF. The limits bound the standard-library sequence matcher's quadratic worst case, but this is not a hard CPU deadline. There is no recursive directory merge, binary merge, rename detection or automatic conflict resolution. Future workers could add review-oriented context, directory merging, or more informative ambiguous-alignment diagnostics toward the existing goal.\n+\n+Review both contributors before using a merge.\n+\n+Retain the source fingerprints with the review.\n"
+        },
+        "ours": {
+          "before": {
+            "kind": "file",
+            "sha256": "2d93d520984e6aa7ba911eca52d1f35c48455d6f86b15a5492db3a102c253811",
+            "bytes": 3470
+          },
+          "after": {
+            "kind": "file",
+            "sha256": "dd2f79aebd764ad6078e914d83b57ca4367904bf32a7de29e1cd70bfb724bff0",
+            "bytes": 3519
+          },
+          "identical": false,
+          "diff": "--- OURS\n+++ SELECTED\n@@ -35,3 +35,5 @@\n Inputs must be valid UTF-8 with no NUL, at most 1 MiB and 4,000 lines each. Byte reads preserve CRLF and final-newline spelling in clean merges. Conflict display adds a newline when needed to separate marker lines; the JSON conflict fields retain exact input fragments. Markers use LF. The limits bound the standard-library sequence matcher's quadratic worst case, but this is not a hard CPU deadline. There is no recursive directory merge, binary merge, rename detection or automatic conflict resolution. Future workers could add review-oriented context, directory merging, or more informative ambiguous-alignment diagnostics toward the existing goal.\n \n Review both contributors before using a merge.\n+\n+Retain the source fingerprints with the review.\n"
+        },
+        "theirs": {
+          "before": {
+            "kind": "file",
+            "sha256": "302a1935fbe3657b1d16306e08f7869389eb29b00effb343794815dbbd7a5a2f",
+            "bytes": 3471
+          },
+          "after": {
+            "kind": "file",
+            "sha256": "dd2f79aebd764ad6078e914d83b57ca4367904bf32a7de29e1cd70bfb724bff0",
+            "bytes": 3519
+          },
+          "identical": false,
+          "diff": "--- THEIRS\n+++ SELECTED\n@@ -34,4 +34,6 @@\n \n Inputs must be valid UTF-8 with no NUL, at most 1 MiB and 4,000 lines each. Byte reads preserve CRLF and final-newline spelling in clean merges. Conflict display adds a newline when needed to separate marker lines; the JSON conflict fields retain exact input fragments. Markers use LF. The limits bound the standard-library sequence matcher's quadratic worst case, but this is not a hard CPU deadline. There is no recursive directory merge, binary merge, rename detection or automatic conflict resolution. Future workers could add review-oriented context, directory merging, or more informative ambiguous-alignment diagnostics toward the existing goal.\n \n+Review both contributors before using a merge.\n+\n Retain the source fingerprints with the review.\n"
+        }
+      }
+    }
+  ],
+  "stage_diffs": [
+    {
+      "path": "README.md",
+      "before": {
+        "kind": "file",
+        "sha256": "dd2f79aebd764ad6078e914d83b57ca4367904bf32a7de29e1cd70bfb724bff0",
+        "bytes": 3519
+      },
+      "after": {
+        "kind": "file",
+        "sha256": "2d93d520984e6aa7ba911eca52d1f35c48455d6f86b15a5492db3a102c253811",
+        "bytes": 3470
+      },
+      "identical": false,
+      "diff": "--- SELECTED\n+++ STAGED\n@@ -35,5 +35,3 @@\n Inputs must be valid UTF-8 with no NUL, at most 1 MiB and 4,000 lines each. Byte reads preserve CRLF and final-newline spelling in clean merges. Conflict display adds a newline when needed to separate marker lines; the JSON conflict fields retain exact input fragments. Markers use LF. The limits bound the standard-library sequence matcher's quadratic worst case, but this is not a hard CPU deadline. There is no recursive directory merge, binary merge, rename detection or automatic conflict resolution. Future workers could add review-oriented context, directory merging, or more informative ambiguous-alignment diagnostics toward the existing goal.\n \n Review both contributors before using a merge.\n-\n-Retain the source fingerprints with the review.\n"
+    }
+  ],
+  "authority": "Local trial only; not independent certification."
+}

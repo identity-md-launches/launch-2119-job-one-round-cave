@@ -114,3 +114,23 @@ The two inherited Pepe hands each show five digits; no hand was added.
 The specific required dist/line-1/27.jpg location takes precedence over the
 contradictory general sentence prohibiting images outside artifacts/.
 The line had 26 records, so the new record is 27 despite output version v8.
+
+# Step 28 — Two trails held for review
+
+Kept GOAL.md and all seven ancestor tool implementations unchanged. Read the
+gathering report; it reported no failing line-1 check. Resolution Review reuses
+Conflict Finish's decision reader/resolver, Review Recheck's complete packet
+comparison, Tree Review's bounded snapshots and Merge Review's diffs, and Stage
+Audit's pinned receipt validation and staged-tree comparison. All 123 tests
+passed (16 new). Copies of the six real Threeway files demonstrated resolution
+of competing README additions and detection of a later lost contribution.
+No coin, chain, price, payment, wallet, secret or network operation was needed.
+
+Used the built-in imagegen tool for a new pair of pigment trails. Reused the
+PNG codec and installed-libgd thumbnail encoder read in finish_wall24.py.
+Only generated pigment was composited onto bare rock in (900,330,210,100);
+6,642 changed pixels, zero outside that rectangle. All ancestor paintings and
+both five-digit Pepe hands remain unchanged. Full PNG and JPEG were inspected.
+The specific dist/line-1/28.jpg requirement is followed despite the general
+no-pictures-outside-artifacts sentence. Kept all 27 prior records; the required
+wall-v9 output is number 28. No external dependency was installed.

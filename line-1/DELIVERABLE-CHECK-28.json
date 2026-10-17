@@ -1,0 +1,31 @@
+{
+  "ancestor_source_and_records_unchanged_except_appended_used": true,
+  "goal_sha256": "05e4531a1867a17011c0cc58f376c16c72fc60e430bfec8804a8cb1f6bffd737",
+  "old_record_count": 27,
+  "new_record_number": 28,
+  "wall": {
+    "path": "artifacts/line-1/wall-v9.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "sha256": "582ad290b64938f9af7770512d9a108d54f9b1e98c88be82188a53d16bdf88f7",
+    "changed_pixels": 6642,
+    "changed_outside_mark": 0
+  },
+  "thumbnail": {
+    "path": "dist/line-1/28.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 75799
+  },
+  "record_schema_and_image_hash_valid": true,
+  "all_new_nonartifact_files_under_100kb": true,
+  "demo_exit_code": 0,
+  "unmet_visual_requirements": [],
+  "authority": "Local structural checks and worker visual review only."
+}
